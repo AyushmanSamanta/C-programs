@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "ADD.C": "cpp",
+        "add_func.C": "cpp",
+        "Q1.C": "cpp",
+        "Q10.C": "cpp",
+        "count_prime.C": "cpp",
+        "quotient.C": "cpp",
+        "remainder.C": "cpp",
+        "reverse_integer.C": "cpp",
+        "reverse.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
