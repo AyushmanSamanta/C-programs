@@ -11,7 +11,7 @@ int main(void)
             sum+=i*i*i;
 	printf("%d\n",sum);
 
-	/*using continue*/
+	
 	sum=0;
 	for(i=1; i<=n; i++)
 	{

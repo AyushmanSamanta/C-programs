@@ -1,0 +1,6 @@
+main:
+	cd CAFETERIA_MENU && $(MAKE)
+	cd LATITUDE_LONGITUDE && $(MAKE)
+	cd STUDENT_DETAILS && $(MAKE)
+	cd STUDENT_REPORT && $(MAKE)
+

@@ -5,7 +5,7 @@ struct Node
     int data;
     struct Node *next;
 }   *first = NULL;
-/*void create(int A[], int n)
+void create(int A[], int n)
 {
     int i;
     struct Node *t, *last;
@@ -21,7 +21,7 @@ struct Node
         last->next = t;
         last = t;
     }
-}*/
+}
 void Display(struct Node *p)
 {
     while (p != NULL)
@@ -34,7 +34,7 @@ int main()
 {
     struct Node *temp;
     int A[] = { 3, 5, 7, 10, 25, 8, 32, 2 };
-   // create(A, 8);
+    create(A, 8);
     Display (first);
     return 0;
 }
